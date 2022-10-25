@@ -27,7 +27,7 @@ The examples have been compiled (successfully) on OSX10.14 with:
 
     > g++ -std=c++11 -Wall -g ../src/common/*.cpp example_rosenbrock.cpp -o demo_rosen
 
-2. [Sphere](examples/example_sphere.cpp)
+2. [Sphere](examples/example_sphere.cpp), compile with:
 
     > g++ -std=c++11 -Wall -g ../src/common/*.cpp example_sphere.cpp -o demo_sphere
 
