@@ -11,7 +11,7 @@ The original paper, that introduced this method is described in:
 
 ### Requirements
 
-   > Boost library is required
+   > C++11
 
 ### Examples
 
