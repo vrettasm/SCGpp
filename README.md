@@ -27,9 +27,7 @@ The examples have been compiled (successfully) on OSX10.14 with:
 
     > g++ -std=c++11 -Wall -g ../src/common/*.cpp example_rosenbrock.cpp -o demo_rosen
 
-    > Output:
-
-      [Note the true minimum is f(1.0, 1.0) = 0.0]:
+    > [Note the true minimum is f(1.0, 1.0) = 0.0]:
 
       Rosenbrock example:
 
@@ -65,9 +63,7 @@ The examples have been compiled (successfully) on OSX10.14 with:
 
     > g++ -std=c++11 -Wall -g ../src/common/*.cpp example_sphere.cpp -o demo_sphere
 
-    > Output:
-
-      [Note the true minimum is f(0.0, 0.0, 0.0, 0.0) = 0.0]:
+    > [Note the true minimum is f(0.0, 0.0, 0.0, 0.0) = 0.0]:
 
       Sphere example:
 
@@ -78,7 +74,7 @@ The examples have been compiled (successfully) on OSX10.14 with:
       It=     2: F(x)=     0.202634 -:- Sum(|Gradients|)=      1.55556 -:- Delta(Elapsed)= 44 μsec.
 
       It=     4: F(x)=  6.43852e-07 -:- Sum(|Gradients|)=   0.00277283 -:- Delta(Elapsed)= 29 μsec.
-      
+
       It=     6: F(x)=  9.15756e-15 -:- Sum(|Gradients|)=  3.30689e-07 -:- Delta(Elapsed)= 29 μsec.
 
       Minimum 9.15756e-15 found at f(1.88965e-08, 3.46436e-08, 8.18849e-08, -2.99195e-08)
