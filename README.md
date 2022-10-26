@@ -77,7 +77,7 @@ The examples have been compiled (successfully) on OSX10.14 with:
 
       It=     6: F(x)=  9.15756e-15 -:- Sum(|Gradients|)=  3.30689e-07 -:- Delta(Elapsed)= 29 μsec.
 
-      Minimum 9.15756e-15 found at f(1.88965e-08, 3.46436e-08, 8.18849e-08, -2.99195e-08)
+      Minimum 9.15756e-15 found at f(1.88965e-08, 3.46436e-08, 8.18849e-08, -2.99195e-08).
 
 ### Unittests
 
