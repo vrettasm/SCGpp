@@ -49,9 +49,10 @@ int main(int argc, char* argv[]) {
   // Create a Shpere object with n=3.
   Shpere shere_func;
 
-  // Hamiltonian MC object.
+  // Scaled conjugate object.
   OptimizationSpace::SCG scaled_optim(shere_func);
 
+  // Set up parameters.
   scaled_optim.set_max_it(100);
   scaled_optim.set_upd_frequency(2);
 

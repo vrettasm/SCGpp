@@ -57,9 +57,10 @@ int main(int argc, char* argv[]) {
   // Create a rosenbrock object with default values.
   Rosenbrock rosen_func(1.0, 100.0);
 
-  // Hamiltonian MC object.
+  // Scaled conjugate object.
   OptimizationSpace::SCG scaled_optim(rosen_func);
 
+  // Set up parameters.
   scaled_optim.set_max_it(5000);
 
   // Initial search point.
