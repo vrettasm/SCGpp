@@ -8,9 +8,6 @@
 // Custom code.
 #include "../src/include/scaled_conjugate_gradient.hpp"
 
-// Compile with:
-// g++ -std=c++11 -Wall -g ../src/common/*.cpp example_rosenbrock.cpp -o demo02
-
 class Rosenbrock: public OptimizationSpace::OptimizationFunction {
   /*
    * The Rosenbrock function is a non-convex function which is used
@@ -58,10 +55,10 @@ int main(int argc, char* argv[]) {
   std::cout << " Rosenbrock example: " << std::endl;
 
   // Create a rosenbrock object with default values.
-  Rosenbrock rosen(1.0, 100.0);
+  Rosenbrock rosen_func(1.0, 100.0);
 
   // Hamiltonian MC object.
-  OptimizationSpace::SCG scaled_optim(rosen);
+  OptimizationSpace::SCG scaled_optim(rosen_func);
 
   scaled_optim.set_max_it(5000);
 

@@ -8,14 +8,10 @@
 // Custom code.
 #include "../src/include/scaled_conjugate_gradient.hpp"
 
-// Compile with:
-// g++ -std=c++11 -Wall -g ../src/common/*.cpp example_sphere.cpp -o demo02
-
 class Shpere: public OptimizationSpace::OptimizationFunction {
   /*
     The Shpere function is used as a performance test problem
-    for many optimization algorithms.
-  */
+    for many optimization algorithms. */
 
   public:
 
