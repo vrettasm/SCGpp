@@ -25,7 +25,7 @@ The examples have been compiled (successfully) on OSX10.14 with:
 
 1. [Rosenbrock](examples/example_rosenbrock.cpp), compile with:
 
-    > g++ -std=c++11 -Wall -g ../src/common/*.cpp example_rosenbrock.cpp -o demo_rosen
+    `g++ -std=c++11 -Wall -g ../src/common/*.cpp example_rosenbrock.cpp -o demo_rosen`
 
     > [Note the true minimum is f(1.0, 1.0) = 0.0]:
 
@@ -61,7 +61,7 @@ The examples have been compiled (successfully) on OSX10.14 with:
 
 2. [Sphere](examples/example_sphere.cpp), compile with:
 
-    > g++ -std=c++11 -Wall -g ../src/common/*.cpp example_sphere.cpp -o demo_sphere
+    `g++ -std=c++11 -Wall -g ../src/common/*.cpp example_sphere.cpp -o demo_sphere`
 
     > [Note the true minimum is f(0.0, 0.0, 0.0, 0.0) = 0.0]:
 
@@ -81,4 +81,4 @@ The examples have been compiled (successfully) on OSX10.14 with:
 
 ### Unittests
 
-   Coming soon
+   - [ ] Coming soon
