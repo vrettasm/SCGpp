@@ -8,15 +8,15 @@
 // Custom code.
 #include "../src/include/scaled_conjugate_gradient.hpp"
 
-class Shpere: public OptimizationSpace::OptimizationFunction {
+class Sphere: public OptimizationSpace::OptimizationFunction {
   /*
-    The Shpere function is used as a performance test problem
+    The Sphere function is used as a performance test problem
     for many optimization algorithms. */
 
   public:
 
     /** @brief Constructor with no parameters. */
-    Shpere() {};
+    Sphere() {};
 
     /** @brief Return the function value f(x). */
     std::pair<double, std::vector<double>> operator()(std::vector<double>& x) {
@@ -46,11 +46,11 @@ int main(int argc, char* argv[]) {
   // Display info.
   std::cout << " Sphere example: " << std::endl;
 
-  // Create a Shpere object with n=3.
-  Shpere shere_func;
+  // Create a Sphere object.
+  Sphere sphere_func;
 
   // Scaled conjugate object.
-  OptimizationSpace::SCG scaled_optim(shere_func);
+  OptimizationSpace::SCG scaled_optim(sphere_func);
 
   // Set up parameters.
   scaled_optim.set_max_it(100);
